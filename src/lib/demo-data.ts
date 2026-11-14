@@ -40,7 +40,7 @@ export const defaultSettings: SiteSettings = {
   announcementText: "Seasonal Discount • New Arrivals Weekly • Fast Shipping",
   announcementEnabled: true,
   email: "support@dpmgoods.com",
-  phone: "+1 (800) 123-4567",
+  phone: "+1 (407) 866-5545",
   address: "United States",
   instagram: "https://instagram.com",
   facebook: "https://facebook.com",
