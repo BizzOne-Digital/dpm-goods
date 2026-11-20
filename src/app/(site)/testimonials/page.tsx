@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Customer Reviews",
-  description: "Read what customers say about shopping with DPM Goods: quality, fit, fast delivery and support.",
+  description: "Read what customers say about shopping with Universal UPMGoods: quality, fit, fast delivery and support.",
   path: "/testimonials",
 });
 
@@ -23,7 +23,7 @@ export default async function TestimonialsPage() {
           <div>
             <Breadcrumbs items={[{ label: t.nav.home, href: "/" }, { label: t.nav.testimonials }]} />
             <h1 className="mt-4 text-4xl font-extrabold sm:text-5xl">{t.home.whatCustomersSay}</h1>
-            <p className="mt-3 max-w-lg text-ink/75">Real feedback from shoppers who trust DPM Goods for everyday style.</p>
+            <p className="mt-3 max-w-lg text-ink/75">Real feedback from shoppers who trust Universal UPMGoods for everyday style.</p>
           </div>
           {items.length > 0 && (
             <div className="card flex items-center gap-5 p-6">

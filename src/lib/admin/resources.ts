@@ -168,7 +168,7 @@ export const RESOURCES: Record<string, ResourceConfig> = {
       { name: "excerpt", label: "Excerpt", type: "textarea", max: 400 },
       { name: "content", label: "Content", type: "richtext" },
       { name: "featuredImage", label: "Featured image", type: "image", folder: "pages" },
-      { name: "author", label: "Author", type: "text", half: true, defaultValue: "DPM Goods Editorial", max: 80 },
+      { name: "author", label: "Author", type: "text", half: true, defaultValue: "Universal UPMGoods Editorial", max: 80 },
       { name: "tags", label: "Tags", type: "tags", half: true },
       { name: "published", label: "Published", type: "boolean", half: true },
       { name: "publishedAt", label: "Publish date", type: "date", half: true },

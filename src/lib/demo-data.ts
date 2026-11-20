@@ -1,5 +1,5 @@
 /**
- * Demo content for DPM Goods.
+ * Demo content for Universal UPMGoods.
  * - `npm run seed` writes this into MongoDB.
  * - When MONGODB_URI is not configured, the storefront renders this read-only data.
  * Remove demo records anytime from the admin panel or with `npm run seed -- --clear`.
@@ -33,10 +33,10 @@ export const IMG = {
 };
 
 export const defaultSettings: SiteSettings = {
-  siteName: "DPM Goods",
+  siteName: "Universal UPMGoods",
   companyName: "Direct Primary Merchandises LLC",
-  logo: "/brand/dpm-goods-logo.png",
-  favicon: "/brand/dpm-goods-favicon.png",
+  logo: "",
+  favicon: "",
   announcementText: "Seasonal Discount • New Arrivals Weekly • Fast Shipping",
   announcementEnabled: true,
   email: "support@dpmgoods.com",
@@ -54,9 +54,9 @@ export const defaultSettings: SiteSettings = {
     "Not the right fit? Return unworn items with tags attached within 30 days of delivery for an exchange or refund to your original payment method.",
   footerDescription:
     "Your online destination for men's and women's clothing, sneakers, jeans, dresses, and fashion essentials.",
-  seoTitle: "DPM Goods | Men's & Women's Fashion, Sneakers & Essentials",
+  seoTitle: "Universal UPMGoods | Men's & Women's Fashion, Sneakers & Essentials",
   seoDescription:
-    "Shop curated men's and women's clothing, sneakers, jeans, dresses, and accessories from DPM Goods by Direct Primary Merchandises LLC. Fast shipping and easy returns.",
+    "Shop curated men's and women's clothing, sneakers, jeans, dresses, and accessories from Universal UPMGoods by Direct Primary Merchandises LLC. Fast shipping and easy returns.",
   flatShippingRate: 6.99,
   freeShippingThreshold: 75,
   taxRate: 0,
@@ -389,13 +389,13 @@ export const demoCategories: Omit<Category, "_id">[] = [
 
 export const demoTestimonials: Omit<Testimonial, "_id">[] = [
   { name: "James R.", avatar: unsplash("1507003211169-0a1dd7228f2d", 200), rating: 5, review: "Great quality and stylish pieces! The fit was perfect, and my order arrived faster than expected.", published: true, sortOrder: 1 },
-  { name: "Emily S.", avatar: unsplash("1438761681033-6461ffad8d80", 200), rating: 5, review: "I love the variety at DPM Goods. The dress I ordered was beautiful, and the whole shopping experience was smooth and easy.", published: true, sortOrder: 2 },
+  { name: "Emily S.", avatar: unsplash("1438761681033-6461ffad8d80", 200), rating: 5, review: "I love the variety at Universal UPMGoods. The dress I ordered was beautiful, and the whole shopping experience was smooth and easy.", published: true, sortOrder: 2 },
   { name: "Michael T.", avatar: unsplash("1500648767791-00dcc994a43e", 200), rating: 5, review: "Awesome selection of sneakers and everyday wear. Excellent service and fast shipping. Highly recommend!", published: true, sortOrder: 3 },
   { name: "Sofia L.", avatar: unsplash("1503185912284-5271ff81b9a8", 200), rating: 5, review: "The camel coat is even better in person. Packaging was neat and customer support answered my sizing question in minutes.", published: true, sortOrder: 4 },
 ];
 
 export const demoTeam: Omit<TeamMember, "_id">[] = [
-  { name: "Daniel Brooks", role: "Founder & Managing Director", bio: "Leads sourcing partnerships and the long-term vision for DPM Goods.", photo: unsplash("1617137968427-85924c800a22", 600), socialLinks: {}, published: true, sortOrder: 1 },
+  { name: "Daniel Brooks", role: "Founder & Managing Director", bio: "Leads sourcing partnerships and the long-term vision for Universal UPMGoods.", photo: unsplash("1617137968427-85924c800a22", 600), socialLinks: {}, published: true, sortOrder: 1 },
   { name: "Ava Martinez", role: "Head of Merchandising", bio: "Curates every collection with an eye for quality, fit and wearability.", photo: unsplash("1494790108377-be9c29b29330", 600), socialLinks: {}, published: true, sortOrder: 2 },
   { name: "Marcus Lee", role: "Operations & Fulfillment", bio: "Keeps orders moving quickly from our supplier network to your door.", photo: unsplash("1506634572416-48cdfe530110", 600), socialLinks: {}, published: true, sortOrder: 3 },
   { name: "Chloe Bennett", role: "Personal Stylist", bio: "Runs our styling consultations and helps customers build easy, versatile wardrobes.", photo: unsplash("1524504388940-b1c1722653e1", 600), socialLinks: {}, published: true, sortOrder: 4 },
@@ -406,7 +406,7 @@ export const demoFaqs: Omit<FAQItem, "_id">[] = [
   { question: "Do you offer free shipping?", answer: "Yes. Orders over $75 ship free within the United States. Orders below that ship at a flat rate shown at checkout.", category: "Shipping", published: true, sortOrder: 2 },
   { question: "What is your return policy?", answer: "Unworn items with original tags can be returned within 30 days of delivery for an exchange or refund. Start a return from your account or contact our support team.", category: "Returns", published: true, sortOrder: 3 },
   { question: "How do I find my size?", answer: "Each product page lists available sizes. If you are between sizes, we recommend sizing up for a relaxed fit. Our stylists are also happy to help through a free consultation.", category: "Products", published: true, sortOrder: 4 },
-  { question: "Is checkout secure?", answer: "Yes. Payments are processed by a PCI-compliant payment provider over encrypted connections. DPM Goods never stores your full card details.", category: "Payments", published: true, sortOrder: 5 },
+  { question: "Is checkout secure?", answer: "Yes. Payments are processed by a PCI-compliant payment provider over encrypted connections. Universal UPMGoods never stores your full card details.", category: "Payments", published: true, sortOrder: 5 },
   { question: "Can I change or cancel my order?", answer: "Contact us as soon as possible. If your order has not been processed yet, we can update or cancel it for you.", category: "Orders", published: true, sortOrder: 6 },
 ];
 
@@ -420,7 +420,7 @@ export const demoBlogPosts: Omit<BlogPost, "_id">[] = [
     excerpt: "Build a versatile wardrobe with five foundational pieces that work from weekday to weekend.",
     category: "Style Tips",
     featuredImage: unsplash("1488161628813-04466f872be2", 1200),
-    author: "DPM Goods Editorial",
+    author: "Universal UPMGoods Editorial",
     tags: ["men", "wardrobe", "basics"],
     published: true,
     publishedAt: new Date(now - 3 * day).toISOString(),
@@ -433,7 +433,7 @@ export const demoBlogPosts: Omit<BlogPost, "_id">[] = [
     excerpt: "Warm neutrals, relaxed tailoring and elevated basics lead the season. Here is how to wear them.",
     category: "Fashion Trends",
     featuredImage: unsplash("1483985988355-763728e1935b", 1200),
-    author: "DPM Goods Editorial",
+    author: "Universal UPMGoods Editorial",
     tags: ["trends", "neutral"],
     published: true,
     publishedAt: new Date(now - 8 * day).toISOString(),
@@ -446,7 +446,7 @@ export const demoBlogPosts: Omit<BlogPost, "_id">[] = [
     excerpt: "From leather low-tops to canvas classics, find the sneaker that fits your lifestyle.",
     category: "Sneakers",
     featuredImage: unsplash("1525966222134-fcfa99b8ae77", 1200),
-    author: "DPM Goods Editorial",
+    author: "Universal UPMGoods Editorial",
     tags: ["sneakers", "guide"],
     published: true,
     publishedAt: new Date(now - 14 * day).toISOString(),
@@ -459,7 +459,7 @@ export const demoBlogPosts: Omit<BlogPost, "_id">[] = [
     excerpt: "A simple guide to choosing jeans that flatter your build and match your style.",
     category: "Style Tips",
     featuredImage: unsplash("1541099649105-f69ad21f3246", 1200),
-    author: "DPM Goods Editorial",
+    author: "Universal UPMGoods Editorial",
     tags: ["denim", "jeans"],
     published: true,
     publishedAt: new Date(now - 21 * day).toISOString(),
@@ -507,9 +507,9 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     page: "home",
     sectionKey: "about",
     title: "Curated Fashion Collections for Modern Shoppers",
-    subtitle: "About DPM Goods",
+    subtitle: "About Universal UPMGoods",
     description:
-      "DPM Goods, by Direct Primary Merchandises LLC, is an online fashion destination offering a curated selection of men's and women's clothing, sneakers, jeans, dresses, and everyday fashion essentials.\n\nWe bring modern fashion, variety, convenience and value together through a streamlined online shopping experience.",
+      "Universal UPMGoods, by Direct Primary Merchandises LLC, is an online fashion destination offering a curated selection of men's and women's clothing, sneakers, jeans, dresses, and everyday fashion essentials.\n\nWe bring modern fashion, variety, convenience and value together through a streamlined online shopping experience.",
     image: IMG.about,
     ctaText: "Learn More",
     ctaUrl: "/about",
@@ -519,7 +519,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
   {
     page: "home",
     sectionKey: "newsletter",
-    title: "Stay in Style with DPM Goods",
+    title: "Stay in Style with Universal UPMGoods",
     description: "Get the latest drops, exclusive offers, and fashion updates straight to your inbox.",
     image: IMG.newsletter,
     enabled: true,
@@ -529,7 +529,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     page: "about",
     sectionKey: "hero",
     title: "Fashion, Curated with Purpose",
-    subtitle: "About DPM Goods",
+    subtitle: "About Universal UPMGoods",
     description: "We make it simple to find modern, quality fashion for men and women, without the endless scrolling.",
     image: IMG.aboutHero,
     enabled: true,
@@ -541,7 +541,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     title: "Our Story",
     subtitle: "Direct Primary Merchandises LLC",
     description:
-      "DPM Goods was founded by Direct Primary Merchandises LLC with one goal: bring trend-driven, well-made fashion to everyday shoppers at a fair price.\n\nWe work with a trusted network of suppliers and use a modern, efficient fulfillment model. That lets us offer a wide, carefully reviewed selection while keeping prices accessible and delivery reliable.",
+      "Universal UPMGoods was founded by Direct Primary Merchandises LLC with one goal: bring trend-driven, well-made fashion to everyday shoppers at a fair price.\n\nWe work with a trusted network of suppliers and use a modern, efficient fulfillment model. That lets us offer a wide, carefully reviewed selection while keeping prices accessible and delivery reliable.",
     image: IMG.aboutStory,
     enabled: true,
     sortOrder: 2,
@@ -560,7 +560,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     sectionKey: "hero",
     title: "Services Designed Around You",
     subtitle: "Beyond the Checkout",
-    description: "Personal styling, gift services and bulk ordering to make shopping with DPM Goods effortless.",
+    description: "Personal styling, gift services and bulk ordering to make shopping with Universal UPMGoods effortless.",
     image: IMG.services,
     enabled: true,
     sortOrder: 1,
@@ -586,7 +586,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     metadata: {
       plans: [
         { name: "Shopper", price: "Free", period: "", description: "Everything you need to shop with confidence.", features: ["Free shipping over $75", "30-day returns", "Order tracking", "Wishlist & saved addresses"], ctaText: "Start Shopping", ctaUrl: "/shop", highlighted: false },
-        { name: "Style Session", price: "$49", period: "per session", description: "A 45-minute consultation with a DPM stylist.", features: ["Personal style assessment", "Curated product picks", "Fit and sizing guidance", "$25 store credit included"], ctaText: "Book a Session", ctaUrl: "/booking", highlighted: true },
+        { name: "Style Session", price: "$49", period: "per session", description: "A 45-minute consultation with a UPMGoods stylist.", features: ["Personal style assessment", "Curated product picks", "Fit and sizing guidance", "$25 store credit included"], ctaText: "Book a Session", ctaUrl: "/booking", highlighted: true },
         { name: "VIP Wardrobe", price: "$99", period: "per season", description: "Seasonal wardrobe planning with priority perks.", features: ["Two styling sessions", "Early access to new arrivals", "Free express shipping", "Priority support"], ctaText: "Get Started", ctaUrl: "/booking", highlighted: false },
       ],
     },
@@ -615,7 +615,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
   {
     page: "team",
     sectionKey: "hero",
-    title: "The People Behind DPM Goods",
+    title: "The People Behind Universal UPMGoods",
     subtitle: "Our Team",
     description: "A small, focused team of merchandisers, stylists and operators dedicated to great fashion and better service.",
     image: IMG.teamHero,
@@ -627,7 +627,7 @@ export const defaultSections: Omit<PageSection, "_id">[] = [
     sectionKey: "privacy-policy",
     title: "Privacy Policy",
     description:
-      "<p>Direct Primary Merchandises LLC (\"DPM Goods\", \"we\") respects your privacy. This policy explains what we collect and how we use it.</p><h2>Information we collect</h2><p>We collect the details you provide when you place an order, create an account, book a session or subscribe to our newsletter, such as your name, email, phone and shipping address.</p><h2>How we use it</h2><ul><li>To process and deliver orders</li><li>To provide customer support</li><li>To send updates you have opted into</li></ul><h2>Payments</h2><p>Payments are processed by our payment provider. We do not store full card numbers.</p><h2>Your choices</h2><p>You can update your account details at any time or contact us to request deletion of your data.</p>",
+      "<p>Direct Primary Merchandises LLC (\"Universal UPMGoods\", \"we\") respects your privacy. This policy explains what we collect and how we use it.</p><h2>Information we collect</h2><p>We collect the details you provide when you place an order, create an account, book a session or subscribe to our newsletter, such as your name, email, phone and shipping address.</p><h2>How we use it</h2><ul><li>To process and deliver orders</li><li>To provide customer support</li><li>To send updates you have opted into</li></ul><h2>Payments</h2><p>Payments are processed by our payment provider. We do not store full card numbers.</p><h2>Your choices</h2><p>You can update your account details at any time or contact us to request deletion of your data.</p>",
     enabled: true,
     sortOrder: 1,
   },

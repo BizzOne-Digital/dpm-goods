@@ -121,7 +121,7 @@ export function StatsBand({ t }: { t: Dictionary }) {
     { value: "30-Day", label: t.home.statReturns },
   ];
   return (
-    <section className="bg-ink py-12 text-white" aria-label="DPM Goods in numbers">
+    <section className="bg-ink py-12 text-white" aria-label="Universal UPMGoods in numbers">
       <dl className="container-x grid grid-cols-2 gap-8 text-center md:grid-cols-4">
         {stats.map((s) => (
           <div key={s.label} className="flex flex-col-reverse">

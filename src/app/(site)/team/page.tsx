@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Our Team",
-  description: "Meet the merchandisers, stylists and operators behind DPM Goods.",
+  description: "Meet the merchandisers, stylists and operators behind Universal UPMGoods.",
   path: "/team",
 });
 

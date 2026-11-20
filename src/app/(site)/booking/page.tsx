@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Book a Styling Session",
-  description: "Book a personal styling consultation, wardrobe refresh or corporate order call with DPM Goods.",
+  description: "Book a personal styling consultation, wardrobe refresh or corporate order call with Universal UPMGoods.",
   path: "/booking",
 });
 
@@ -41,7 +41,7 @@ export default async function BookingPage() {
           </ul>
           {hero?.image && (
             <div className="relative mt-10 hidden aspect-[16/10] overflow-hidden rounded-2xl lg:block">
-              <SmartImage src={hero.image} alt="DPM Goods stylist" fill sizes="40vw" className="object-cover" />
+              <SmartImage src={hero.image} alt="Universal UPMGoods stylist" fill sizes="40vw" className="object-cover" />
             </div>
           )}
         </div>

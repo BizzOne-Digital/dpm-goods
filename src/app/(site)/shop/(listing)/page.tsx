@@ -7,7 +7,7 @@ import type { RawSearchParams } from "@/lib/shop-params";
 
 export const metadata = buildMetadata({
   title: "Shop All Fashion",
-  description: "Browse men's and women's clothing, sneakers, jeans, dresses and accessories at DPM Goods. Filter by size, color, price and more.",
+  description: "Browse men's and women's clothing, sneakers, jeans, dresses and accessories at Universal UPMGoods. Filter by size, color, price and more.",
   path: "/shop",
 });
 
@@ -16,7 +16,7 @@ export default async function ShopPage({ searchParams }: { searchParams: Promise
   return (
     <>
       <PageHero
-        eyebrow="DPM Goods"
+        eyebrow="Universal UPMGoods"
         title={t.shop.title}
         description={t.shop.subtitle}
         image={IMG.denimWall}

@@ -13,7 +13,7 @@ export default async function LoginPage() {
   if (await getCustomerSession()) redirect("/account");
   const { t } = await getDictionary();
   return (
-    <AuthShell title={t.account.welcome} subtitle="Sign in to your DPM Goods account." image={IMG.authSide}>
+    <AuthShell title={t.account.welcome} subtitle="Sign in to your Universal UPMGoods account." image={IMG.authSide}>
       <Suspense>
         <AuthForm mode="login" />
       </Suspense>

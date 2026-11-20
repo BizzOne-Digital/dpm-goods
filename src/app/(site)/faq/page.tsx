@@ -8,7 +8,7 @@ import { slugify } from "@/lib/utils";
 
 export const metadata = buildMetadata({
   title: "Frequently Asked Questions",
-  description: "Answers about shipping, returns, sizing, payments and orders at DPM Goods.",
+  description: "Answers about shipping, returns, sizing, payments and orders at Universal UPMGoods.",
   path: "/faq",
 });
 

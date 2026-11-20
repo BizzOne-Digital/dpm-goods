@@ -27,7 +27,7 @@ export function buildMetadata({
       title,
       description,
       url: siteUrl(path),
-      siteName: "DPM Goods",
+      siteName: "Universal UPMGoods",
       type,
       ...(absoluteImage ? { images: [{ url: absoluteImage }] } : {}),
     },

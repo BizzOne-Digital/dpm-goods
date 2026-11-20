@@ -128,7 +128,7 @@ export default function AdminShell({ adminName, children }: { adminName: string;
       ) : (
         <Link href="/admin" className="leading-none">
           <span className="font-display text-xl font-extrabold text-white">
-            DPM <span className="text-primary-light">Goods</span>
+            Universal <span className="text-primary-light">UPMGoods</span>
           </span>
           <span className="mt-1 block text-[10px] uppercase tracking-widest text-white/50">Admin</span>
         </Link>

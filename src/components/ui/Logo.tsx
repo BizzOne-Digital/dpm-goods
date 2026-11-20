@@ -13,7 +13,7 @@ type LogoProps = {
 /** Text logo by default; switches to the uploaded logo once set in Website Settings. */
 export default function Logo({
   logo,
-  siteName = "DPM Goods",
+  siteName = "Universal UPMGoods",
   companyName = "Direct Primary Merchandises LLC",
   variant = "dark",
   className,
@@ -33,7 +33,7 @@ export default function Logo({
   const [first, ...rest] = siteName.split(" ");
   return (
     <Link href="/" className={cn("group inline-flex flex-col leading-none", className)} aria-label={`${siteName} home`}>
-      <span className="font-display text-[26px] font-extrabold tracking-tight sm:text-[28px]">
+      <span className="font-display text-[21px] font-extrabold tracking-tight sm:text-[28px]">
         <span className={variant === "light" ? "text-white" : "text-ink"}>{first}</span>{" "}
         <span className={variant === "light" ? "text-primary-light" : "text-primary"}>{rest.join(" ")}</span>
       </span>

@@ -10,7 +10,7 @@ import { cn, formatDate } from "@/lib/utils";
 
 export const metadata = buildMetadata({
   title: "Style Journal",
-  description: "Style tips, fashion trends and sneaker guides from the DPM Goods editorial team.",
+  description: "Style tips, fashion trends and sneaker guides from the Universal UPMGoods editorial team.",
   path: "/blog",
 });
 

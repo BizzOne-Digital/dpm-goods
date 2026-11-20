@@ -7,7 +7,7 @@ const config = CATEGORY_PAGES["jeans"];
 
 export const metadata = buildMetadata({
   title: "Jeans",
-  description: `Shop ${config.tagline.charAt(0).toLowerCase()}${config.tagline.slice(1)} Fast shipping and easy returns at DPM Goods.`,
+  description: `Shop ${config.tagline.charAt(0).toLowerCase()}${config.tagline.slice(1)} Fast shipping and easy returns at Universal UPMGoods.`,
   path: config.path,
 });
 

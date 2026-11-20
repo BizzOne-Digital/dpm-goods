@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props) {
   if (!product) return buildMetadata({ title: "Product not found", path: `/shop/${slug}`, noIndex: true });
   return buildMetadata({
     title: product.seoTitle || product.name,
-    description: product.seoDescription || product.shortDescription || `Shop ${product.name} at DPM Goods.`,
+    description: product.seoDescription || product.shortDescription || `Shop ${product.name} at Universal UPMGoods.`,
     path: `/shop/${product.slug}`,
     image: product.featuredImage || product.images[0],
   });
@@ -45,7 +45,7 @@ export default async function ProductPage({ params }: Props) {
       const u = normalizeImageUrl(g);
       return u.startsWith("http") ? u : siteUrl(u);
     }),
-    brand: { "@type": "Brand", name: "DPM Goods" },
+    brand: { "@type": "Brand", name: "Universal UPMGoods" },
     offers: {
       "@type": "Offer",
       price: product.price,

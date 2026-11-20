@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Contact Us",
-  description: "Get in touch with DPM Goods for order support, sizing help or general questions.",
+  description: "Get in touch with Universal UPMGoods for order support, sizing help or general questions.",
   path: "/contact",
 });
 

@@ -14,7 +14,7 @@ export default async function AdminLoginPage() {
       <div className="w-full max-w-sm">
         <div className="mb-8 text-center">
           <p className="font-display text-3xl font-extrabold text-white">
-            DPM <span className="text-primary-light">Goods</span>
+            Universal <span className="text-primary-light">UPMGoods</span>
           </p>
           <p className="mt-1 text-xs uppercase tracking-[0.2em] text-white/50">Admin Dashboard</p>
         </div>

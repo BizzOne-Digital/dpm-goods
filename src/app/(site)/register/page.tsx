@@ -13,7 +13,7 @@ export default async function RegisterPage() {
   if (await getCustomerSession()) redirect("/account");
   const { t } = await getDictionary();
   return (
-    <AuthShell title={t.account.register} subtitle="Join DPM Goods for faster checkout and order tracking." image={IMG.authSide}>
+    <AuthShell title={t.account.register} subtitle="Join Universal UPMGoods for faster checkout and order tracking." image={IMG.authSide}>
       <Suspense>
         <AuthForm mode="register" />
       </Suspense>
