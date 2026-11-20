@@ -13,7 +13,7 @@ type LogoProps = {
 /** Text logo by default; switches to the uploaded logo once set in Website Settings. */
 export default function Logo({
   logo,
-  siteName = "Universal UPMGoods",
+  siteName = "Universal UPM Goods",
   companyName = "Direct Primary Merchandises LLC",
   variant = "dark",
   className,

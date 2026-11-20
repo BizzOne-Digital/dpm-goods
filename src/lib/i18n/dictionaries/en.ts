@@ -38,7 +38,7 @@ const en = {
     bestSellers: "Best Sellers",
     tabAll: "All",
     tabNew: "New Arrivals",
-    whyShop: "Why Shop at Universal UPMGoods?",
+    whyShop: "Why Shop at Universal UPM Goods?",
     qualityPicks: "Quality Picks",
     qualityPicksText: "Carefully selected apparel and essentials you'll love.",
     trendStyles: "Trend-Driven Styles",
@@ -48,7 +48,7 @@ const en = {
     fastDelivery: "Fast Delivery",
     fastDeliveryText: "Reliable shipping to get your style to you sooner.",
     whatCustomersSay: "What Our Customers Say",
-    fromBlog: "From the Universal UPMGoods Blog",
+    fromBlog: "From the Universal UPM Goods Blog",
     viewAllArticles: "View All Articles",
     viewAllProducts: "View All Products",
     happyCustomers: "Happy customers",
@@ -234,7 +234,7 @@ const en = {
   newsletter: {
     placeholder: "Enter your email address",
     subscribe: "Subscribe",
-    success: "You're subscribed. Welcome to Universal UPMGoods!",
+    success: "You're subscribed. Welcome to Universal UPM Goods!",
     duplicate: "You're already subscribed.",
   },
   footer: {

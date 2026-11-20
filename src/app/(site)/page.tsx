@@ -25,7 +25,7 @@ import { buildMetadata } from "@/lib/seo";
 export async function generateMetadata() {
   const settings = await getSettings();
   return buildMetadata({
-    title: settings.seoTitle || "Universal UPMGoods | Men's & Women's Fashion",
+    title: settings.seoTitle || "Universal UPM Goods | Men's & Women's Fashion",
     description: settings.seoDescription,
     path: "/",
   });

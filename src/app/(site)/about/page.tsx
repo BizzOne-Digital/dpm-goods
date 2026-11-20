@@ -8,8 +8,8 @@ import { getDictionary } from "@/lib/i18n/server";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About Universal UPMGoods",
-  description: "Learn about Universal UPMGoods by Direct Primary Merchandises LLC: a curated online fashion destination for men's and women's clothing, sneakers and essentials.",
+  title: "About Universal UPM Goods",
+  description: "Learn about Universal UPM Goods by Direct Primary Merchandises LLC: a curated online fashion destination for men's and women's clothing, sneakers and essentials.",
   path: "/about",
 });
 
@@ -30,14 +30,14 @@ export default async function AboutPage() {
   return (
     <>
       {hero?.enabled !== false && (
-        <PageHero eyebrow={hero?.subtitle} title={hero?.title ?? "About Universal UPMGoods"} description={hero?.description} image={hero?.image} breadcrumbs={[{ label: t.nav.home, href: "/" }, { label: t.nav.about }]} />
+        <PageHero eyebrow={hero?.subtitle} title={hero?.title ?? "About Universal UPM Goods"} description={hero?.description} image={hero?.image} breadcrumbs={[{ label: t.nav.home, href: "/" }, { label: t.nav.about }]} />
       )}
 
       {story?.enabled !== false && story && (
         <section className="container-x grid items-center gap-10 py-16 lg:grid-cols-2 lg:gap-16">
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
-              <SmartImage src={story.image} alt="Inside the Universal UPMGoods collection" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <SmartImage src={story.image} alt="Inside the Universal UPM Goods collection" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-2 hidden rounded-xl bg-primary-dark p-6 text-white shadow-xl sm:block lg:-right-8">
               <p className="font-display text-4xl font-extrabold">UPM</p>

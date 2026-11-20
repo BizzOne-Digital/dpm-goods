@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata = buildMetadata({
   title: "Pricing",
-  description: "Shop free anytime, or book a personal styling session or seasonal VIP wardrobe plan with Universal UPMGoods.",
+  description: "Shop free anytime, or book a personal styling session or seasonal VIP wardrobe plan with Universal UPM Goods.",
   path: "/pricing",
 });
 

@@ -30,7 +30,7 @@ export interface IWebsiteSettings {
 
 const WebsiteSettingsSchema = new Schema<IWebsiteSettings>(
   {
-    siteName: { type: String, default: "Universal UPMGoods" },
+    siteName: { type: String, default: "Universal UPM Goods" },
     companyName: { type: String, default: "Direct Primary Merchandises LLC" },
     logo: String,
     favicon: String,

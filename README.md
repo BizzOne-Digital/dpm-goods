@@ -1,4 +1,4 @@
-# Universal UPMGoods: Direct Primary Merchandises LLC
+# Universal UPM Goods: Direct Primary Merchandises LLC
 
 A custom fashion e-commerce site built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, MongoDB Atlas and Mongoose. It is designed to run on Vercel or any other serverless host.
 

@@ -26,7 +26,7 @@ const BlogPostSchema = new Schema<IBlogPost>(
     featuredImage: String,
     category: String,
     tags: { type: [String], default: [] },
-    author: { type: String, default: "Universal UPMGoods Editorial" },
+    author: { type: String, default: "Universal UPM Goods Editorial" },
     published: { type: Boolean, default: false, index: true },
     publishedAt: Date,
     seoTitle: String,

@@ -7,7 +7,7 @@ const config = CATEGORY_PAGES["accessories"];
 
 export const metadata = buildMetadata({
   title: "Fashion Accessories",
-  description: `Shop ${config.tagline.charAt(0).toLowerCase()}${config.tagline.slice(1)} Fast shipping and easy returns at Universal UPMGoods.`,
+  description: `Shop ${config.tagline.charAt(0).toLowerCase()}${config.tagline.slice(1)} Fast shipping and easy returns at Universal UPM Goods.`,
   path: config.path,
 });
 

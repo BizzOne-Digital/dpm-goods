@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Services",
-  description: "Personal styling, wardrobe refresh, gift wrapping and corporate orders from Universal UPMGoods.",
+  description: "Personal styling, wardrobe refresh, gift wrapping and corporate orders from Universal UPM Goods.",
   path: "/services",
 });
 

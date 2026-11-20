@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Returns & Exchanges",
-  description: "How to return or exchange items purchased from Universal UPMGoods.",
+  description: "How to return or exchange items purchased from Universal UPM Goods.",
   path: "/returns",
 });
 

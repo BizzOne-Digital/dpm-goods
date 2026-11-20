@@ -3,7 +3,7 @@ import { getSection } from "@/lib/data";
 import { sanitizeRichText } from "@/lib/sanitize";
 import { buildMetadata } from "@/lib/seo";
 
-export const metadata = buildMetadata({ title: "Privacy Policy", description: "How Universal UPMGoods collects, uses and protects your personal information.", path: "/privacy-policy" });
+export const metadata = buildMetadata({ title: "Privacy Policy", description: "How Universal UPM Goods collects, uses and protects your personal information.", path: "/privacy-policy" });
 
 export default async function Page() {
   const section = await getSection("legal", "privacy-policy");

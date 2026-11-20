@@ -38,8 +38,8 @@ export default async function BlogPostPage({ params }: Props) {
     headline: post.title,
     description: post.excerpt,
     datePublished: post.publishedAt,
-    author: { "@type": "Organization", name: post.author || "Universal UPMGoods" },
-    publisher: { "@type": "Organization", name: "Universal UPMGoods" },
+    author: { "@type": "Organization", name: post.author || "Universal UPM Goods" },
+    publisher: { "@type": "Organization", name: "Universal UPM Goods" },
     mainEntityOfPage: siteUrl(`/blog/${post.slug}`),
   };
 

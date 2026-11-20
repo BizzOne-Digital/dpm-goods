@@ -6,7 +6,7 @@ import { formatPrice } from "@/lib/utils";
 
 export const metadata = buildMetadata({
   title: "Shipping & Delivery",
-  description: "Processing times, delivery estimates and shipping rates for Universal UPMGoods orders.",
+  description: "Processing times, delivery estimates and shipping rates for Universal UPM Goods orders.",
   path: "/shipping",
 });
 
